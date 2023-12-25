@@ -1,0 +1,76 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111; /* Fallback color */
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-image: url('black-background-09-wallpaperaccess.png'); /* Path to your background image */
+    background-size: cover; /* Cover the entire body */
+    background-repeat: no-repeat; /* No repetition */
+    background-position: center center; /* Center the background */
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    text-align: center; /* Center-align the content */
+}
+
+h1 {
+    background-color: black; /* Black background for the title */
+    color: #e50914; /* Netflix red */
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+form {
+    margin-top: 50px;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black */
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.1); /* White shadow for contrast */
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+input[type="text"] {
+    padding: 15px;
+    width: 350px;
+    border-radius: 5px;
+    border: 1px solid #e50914; /* Netflix red */
+    background-color: #333; /* Dark background */
+    color: #fff;
+}
+
+input[type="submit"] {
+    padding: 15px 25px;
+    background-color: #e50914; /* Netflix red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.error-message {
+    color: #e50914; /* Netflix red */
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
